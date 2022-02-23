@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.Login1Activity">
+    <TextView
+        android:id="@+id/lg1_01_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="요즘"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/lg1_02_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사람들 만나기"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lg1_01_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/lg1_03_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="너무 힘들지?"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lg1_02_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"/>
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:src="@drawable/login_kakao"
+        android:background="@color/white"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
